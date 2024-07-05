@@ -1,0 +1,672 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light background color */
+}
+
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Shadow for header */
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 2rem; /* Larger font size for brand */
+    color: #007bff; /* Blue color for brand */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem; /* Font size for navbar links */
+    color: #343a40; /* Dark color for navbar links */
+    transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+main {
+    padding: 50px 0; /* Padding for main content */
+}
+
+
+
+ /* Home Section Styles */
+
+#home {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 100px 0; /* Padding for content */
+}
+
+.home-content {
+    max-width: 600px; /* Limit content width */
+    margin: 0 auto; /* Center content horizontally */
+}
+
+.home-content i {
+    color: #007bff; /* Blue color for icon */
+}
+
+.home-content h1 {
+    font-family: 'Montserrat', sans-serif; /* Fancy font */
+    font-size: 3rem; /* Large font size */
+    color: #007bff; /* Blue color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.home-content p {
+    font-size: 1.5rem; /* Font size for paragraph */
+    color: #495057; /* Dark color for text */
+    line-height: 1.8; /* Line height for readability */
+}
+
+
+/* Services Section Styles */
+
+#services {
+    background-color: #ffffff; /* White background */
+    padding: 100px 0; /* Padding for content */
+}
+
+.section-title h2 {
+    font-family: 'Montserrat', sans-serif; /* Fancy font */
+    font-size: 2.5rem; /* Large font size */
+    color: #007bff; /* Blue color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.section-title p {
+    font-size: 1.2rem; /* Font size for paragraph */
+    color: #495057; /* Dark color for text */
+    margin-bottom: 40px; /* Larger space below paragraph */
+}
+
+.service-item {
+    margin-bottom: 40px; /* Space between service items */
+    text-align: left; /* Align text to the left */
+    padding-left: 50px; /* Add left padding for icon space */
+}
+
+.service-item i {
+    font-size: 2.5rem; /* Size of Font Awesome icons */
+    color: #007bff; /* Blue color for icons */
+    margin-right: 20px; /* Space to the right of the icon */
+}
+
+.service-item h3 {
+    font-size: 1.8rem; /* Font size for service titles */
+    color: #343a40; /* Dark color for service titles */
+    margin-bottom: 10px; /* Space below title */
+}
+
+.service-item p {
+    font-size: 1.1rem; /* Font size for service descriptions */
+    color: #6c757d; /* Slightly darker color for descriptions */
+    line-height: 1.6; /* Line height for readability */
+}
+
+
+/* Types of Phones Section Styles */
+
+#phone-types {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 100px 0; /* Padding for content */
+}
+
+.section-title h2 {
+    font-family: 'Montserrat', sans-serif; /* Fancy font */
+    font-size: 2.5rem; /* Large font size */
+    color: #007bff; /* Blue color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.section-title p {
+    font-size: 1.2rem; /* Font size for paragraph */
+    color: #495057; /* Dark color for text */
+    margin-bottom: 40px; /* Larger space below paragraph */
+}
+
+.phone-brand-item {
+    text-align: center; /* Center align text */
+    padding: 20px; /* Padding for each item */
+    margin-bottom: 30px; /* Space between items */
+    background-color: #ffffff; /* White background for items */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.phone-brand-item:hover {
+    transform: translateY(-10px); /* Lift item on hover */
+}
+
+.phone-brand-item i {
+    font-size: 3rem; /* Size of Font Awesome icons */
+    color: #007bff; /* Blue color for icons */
+    margin-bottom: 20px; /* Space below icon */
+}
+
+.phone-brand-item h3 {
+    font-size: 1.5rem; /* Font size for brand names */
+    color: #343a40; /* Dark color for brand names */
+}
+
+
+/* About Section Styles */
+
+#about {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 100px 0; /* Padding for content */
+}
+
+.section-title h2 {
+    font-family: 'Montserrat', sans-serif; /* Fancy font */
+    font-size: 2.5rem; /* Large font size */
+    color: #007bff; /* Blue color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+#about .lead {
+    font-family: 'Open Sans', sans-serif; /* Fancy font for paragraph */
+    font-size: 1.2rem; /* Font size for paragraph */
+    color: #495057; /* Dark color for text */
+    line-height: 1.8; /* Line height for better readability */
+    margin-bottom: 20px; /* Space between paragraphs */
+    text-align: justify; /* Justify text for a neat appearance */
+}
+
+#about .lead::first-letter {
+    font-size: 2rem; /* Larger first letter */
+    color: #007bff; /* Blue color for first letter */
+    font-weight: bold; /* Bold first letter */
+}
+
+
+/* Featured Devices Section Styles */
+
+#featured-devices {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#featured-devices h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#featured-devices p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+#featured-devices .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#featured-devices .btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Gallery Section Styles */
+
+#gallery {
+    background-color: #ffffff; /* White background */
+    padding: 100px 0; /* Padding for content */
+}
+
+.section-title h2 {
+    font-family: 'Montserrat', sans-serif; /* Fancy font */
+    font-size: 2.5rem; /* Large font size */
+    color: #007bff; /* Blue color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.section-title p {
+    font-family: 'Open Sans', sans-serif; /* Fancy font for paragraph */
+    font-size: 1.2rem; /* Font size for paragraph */
+    color: #495057; /* Dark color for text */
+    margin-bottom: 50px; /* Space below subtitle */
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.gallery-item img {
+    width: 100%; /* Full width image */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+
+/* Location Section Styles */
+
+#location {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 100px 0; /* Padding for content */
+}
+
+.section-title h2 {
+    font-family: 'Montserrat', sans-serif; /* Fancy font */
+    font-size: 2.5rem; /* Large font size */
+    color: #007bff; /* Blue color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.section-title p {
+    font-family: 'Open Sans', sans-serif; /* Fancy font for paragraph */
+    font-size: 1.2rem; /* Font size for paragraph */
+    color: #495057; /* Dark color for text */
+    margin-bottom: 50px; /* Space below subtitle */
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 0; /* Remove iframe border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.map-responsive iframe:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+
+/* Contact Section Styles */
+
+#contact {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 100px 0; /* Padding for content */
+}
+
+.section-title h2 {
+    font-family: 'Montserrat', sans-serif; /* Fancy font */
+    font-size: 2.5rem; /* Large font size */
+    color: #007bff; /* Blue color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.section-title p {
+    font-family: 'Open Sans', sans-serif; /* Fancy font for paragraph */
+    font-size: 1.2rem; /* Font size for paragraph */
+    color: #495057; /* Dark color for text */
+    margin-bottom: 50px; /* Space below subtitle */
+}
+
+.contact-box {
+    background-color: #ffffff; /* White background */
+    padding: 30px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.contact-box:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.contact-icon {
+    font-size: 3rem; /* Large icon size */
+    color: #007bff; /* Blue color for icons */
+    margin-bottom: 20px; /* Space below icon */
+}
+
+.contact-box h4 {
+    font-family: 'Montserrat', sans-serif; /* Fancy font */
+    font-size: 1.5rem; /* Font size */
+    color: #343a40; /* Dark color for heading */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.contact-box p a {
+    font-family: 'Open Sans', sans-serif; /* Fancy font */
+    font-size: 1.2rem; /* Font size */
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.contact-box p a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* FAQ Section Styles */
+
+#faqs {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 100px 0; /* Padding for content */
+}
+
+.section-title h2 {
+    font-family: 'Montserrat', sans-serif; /* Fancy font */
+    font-size: 2.5rem; /* Large font size */
+    color: #007bff; /* Blue color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.section-title p {
+    font-family: 'Open Sans', sans-serif; /* Fancy font for paragraph */
+    font-size: 1.2rem; /* Font size for paragraph */
+    color: #495057; /* Dark color for text */
+    margin-bottom: 50px; /* Space below subtitle */
+}
+
+.card-header .btn {
+    font-family: 'Montserrat', sans-serif; /* Fancy font for button */
+    font-size: 1.2rem; /* Font size */
+    color: #007bff; /* Blue color for button text */
+    text-align: left; /* Left align text */
+    width: 100%; /* Full width button */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.card-header .btn:hover {
+    background-color: #e2e6ea; /* Light grey background on hover */
+}
+
+.card-body {
+    font-family: 'Open Sans', sans-serif; /* Fancy font for card body */
+    font-size: 1rem; /* Font size */
+    color: #495057; /* Dark color for text */
+    background-color: #ffffff; /* White background for card body */
+    padding: 20px; /* Padding inside card body */
+    border-top: 1px solid #dee2e6; /* Border on top */
+}
+
+/* Blog Section Styles */
+
+#blog {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 100px 0; /* Padding for content */
+}
+
+.section-title h2 {
+    font-family: 'Montserrat', sans-serif; /* Fancy font */
+    font-size: 2.5rem; /* Large font size */
+    color: #007bff; /* Blue color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.section-title p {
+    font-family: 'Open Sans', sans-serif; /* Fancy font for paragraph */
+    font-size: 1.2rem; /* Font size for paragraph */
+    color: #495057; /* Dark color for text */
+    margin-bottom: 50px; /* Space below subtitle */
+}
+
+.card {
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-body {
+    font-family: 'Open Sans', sans-serif; /* Fancy font */
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif; /* Fancy font */
+    color: #007bff; /* Blue color */
+}
+
+.card-text {
+    color: #495057; /* Dark color for text */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Blue color */
+    border: none; /* Remove border */
+    font-family: 'Montserrat', sans-serif; /* Fancy font */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Live Chat Section Styles */
+
+#livechat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.chat-button {
+    text-align: right;
+}
+
+.chat-box {
+    display: none;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.chat-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.chat-header .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.chat-body {
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.chat-footer {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+
+.chat-footer input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chat-footer button {
+    margin-left: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-message-agent {
+    justify-content: flex-start;
+}
+
+.chat-message-user {
+    justify-content: flex-end;
+}
+
+.chat-message .message-content {
+    max-width: 70%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.chat-message-user .message-content {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Scroll to Top Button Styles */
+
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+#scrollTopBtn:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-links, .footer-contact, .footer-social {
+    flex: 1;
+}
+
+.footer-links h3, .footer-contact h3, .footer-social h3 {
+    color: #007bff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-links ul, .footer-contact ul, .footer-social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li, .footer-contact ul li, .footer-social ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #007bff;
+}
+
+.footer-contact ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-contact ul li a:hover {
+    color: #007bff;
+}
+
+.footer-social ul {
+    display: flex;
+    padding-left: 0;
+}
+
+.footer-social ul li {
+    margin-right: 10px;
+}
+
+.footer-social ul li a {
+    color: #007bff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-social ul li a:hover {
+    color: #0056b3;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
