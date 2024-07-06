@@ -1,0 +1,352 @@
+/* Hero Section Styles */
+.hero-section {
+    background
+    height: 100vh;
+    color: orangered;
+}
+
+.hero-section .container {
+    max-width: 800px;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    color: orangered;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-section .btn {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+
+.hero-section .btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Contact Section Styles */
+#contact-section {
+    background-color: white;
+    color: orangered;
+    padding: 80px 0; /* Adjust padding as needed */
+}
+
+.contact-section .container {
+    max-width: 800px; /* Adjust container width */
+    margin: auto;
+}
+
+.contact-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.contact-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 20px;
+}
+
+.contact-icon i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+
+/* Location Section Styles */
+.location-section {
+    padding: 80px 0;
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.location-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    position: relative;
+    height: 0;
+    padding-top: 56.25%; /* Aspect ratio (16:9) */
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+/* Customer Support Section Styles */
+#customer-support-section {
+    padding: 80px 0;
+}
+
+#customer-support-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+#customer-support-section .fa {
+    color: #007bff; /* Blue color for icons */
+}
+
+#customer-support-section h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+#customer-support-section p {
+    font-size: 1.1rem;
+    color: #666666;
+    line-height: 1.6;
+}
+
+/* Original Products Section Styles */
+#original-products-section {
+    padding: 80px 0;
+}
+
+#original-products-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+#original-products-section .fa {
+    color: #28a745; /* Green color for icons */
+}
+
+#original-products-section h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+#original-products-section p {
+    font-size: 1.1rem;
+    color: #666666;
+    line-height: 1.6;
+}
+
+/* Opening Hours Section Styles */
+#opening-hours-section {
+    padding: 80px 0;
+}
+
+#opening-hours-section .card {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#opening-hours-section .card-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+#opening-hours-section h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+#opening-hours-section p {
+    font-size: 1.1rem;
+    color: #666666;
+    line-height: 1.6;
+}
+
+/* About Us Section */
+#about-us-section h2,
+#services-section h2,
+#testimonials-section h2,
+#promotions-section h2,
+#social-media-section h2 {
+    color: #ff4500; /* Orangered color */
+}
+
+#about-us-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#about-us-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Services Section */
+#services-section .fa-tools,
+#services-section .fa-comments,
+#services-section .fa-cogs {
+    color: #ff4500;
+}
+
+/* Testimonials Section */
+#testimonials-section .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials-section .card-body {
+    background: #fff;
+}
+
+/* Promotions Section */
+#promotions-section .fa-tags,
+#promotions-section .fa-gift,
+#promotions-section .fa-percentage {
+    color: #ff4500;
+}
+
+/* Social Media Section */
+#social-media-section .social-icon {
+    color: #ff4500;
+    transition: color 0.3s;
+}
+
+#social-media-section .social-icon:hover {
+    color: #d73a00;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #ff4500; /* Orangered color */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.back-to-top i {
+    font-size: 20px;
+}
+
+.back-to-top:hover {
+    background-color: #d73a00; /* Darker orangered */
+}
+
+.back-to-top.show {
+    display: flex;
+    opacity: 1;
+}
+
+.back-to-top.hide {
+    opacity: 0;
+}
+
+
+
+/* Footer Section Styles */
+.footer-section {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer-section h5 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
+}
+
+.footer-section a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #ffffff;
+}
+
+.footer-section ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section .fa {
+    margin-right: 10px;
+}
+
+.footer-section .text-center {
+    background-color: #333333;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    padding: 10px 0;
+}
+
+
+
+
